@@ -81,7 +81,7 @@ class Fact:
         if theorem_prover.lower() == "problog":
             prob = f"{self.probability}::"
             if self.polarity != "+":
-                lf += "\+"
+                lf += "\\+"
             lf += f'{self.predicate}({", ".join(arguments)})'
             if is_assertion:
                 lf = f"query({lf})."

@@ -1,7 +1,6 @@
-black==20.8b1
-Cython==0.29.21
-nltk==3.5
-numpy==1.19.0
-problog==2.1.0.42
-pytest==6.1.2
-tqdm==4.51.0
+nltk>=3.9.1
+numpy>=2.2.5
+problog>=2.2.7
+pytest>=8.3.4
+tqdm>=4.66.5
+pysdd>=1.0.5
